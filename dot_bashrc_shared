@@ -1,0 +1,7 @@
+# . ~/.bashrc_shared
+
+alias md=mkdir
+alias g=git
+alias n=npm
+alias c="cursor ."
+export MSYS=winsymlinks:nativestrict

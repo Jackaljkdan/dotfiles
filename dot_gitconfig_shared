@@ -1,0 +1,31 @@
+#[user]
+#	name = my name
+#	email = my@email.com
+#[include]
+#	path = ~/.gitconfig_shared
+#[includeIf "gitdir:C:/path/to/"]
+#	path = C:/path/to/.gitconfig
+[core]
+	autocrlf = input
+	safecrlf = false
+	symlinks = true
+[alias]
+	l = log --decorate
+	ll = log --decorate --oneline
+	lf = log --pretty=format:\"%C(auto,yellow)%h %C(auto,blue)%ad %C(auto,green)%<(7,trunc)%an%C(auto,reset)%s%C(auto,red)% gD% D\"
+	s = status
+	st = status -s -uno
+	ss = status -s
+	su = submodule update
+	d = diff -w
+	df = diff --name-only
+	dd = diff
+	co = commit
+	con = commit --no-verify
+	ch = checkout
+	br = branch
+	cp = cherry-pick --no-commit
+	ps = push
+	pl = pull
+	f = fetch
+	g = gc
