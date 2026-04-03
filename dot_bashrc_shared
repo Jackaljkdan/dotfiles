@@ -2,6 +2,7 @@
 
 alias md=mkdir
 alias g=git
+alias gu=gitui
 alias n=npm
 alias c="cursor ."
 export MSYS=winsymlinks:nativestrict
